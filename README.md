@@ -53,7 +53,7 @@
     cd project.git
     git init --bare
 
-    # En nuestra carpeta
+    # En nuestra carpeta local
     git remote add origin user@server:/path/to/the/project.git
     git push -u origin master
 
