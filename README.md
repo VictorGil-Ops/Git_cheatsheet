@@ -1,6 +1,9 @@
 # Git_cheatsheet
 
+## Guides
+
 <https://git-scm.com/>
+<https://www.atlassian.com/es/git/tutorials/setting-up-a-repository>
 
 ## Identity
 
@@ -96,3 +99,31 @@
     git reset --hard        # descarta todos los cambios pendientes
 
 ## Rebase (hacer solo en local)
+
+    git rebase -i HEAD~5
+    git rebase --continue
+    git push -f
+
+    # saltar commit conflictivo
+    git rebase --skip
+
+    # parar
+    git rebase --abort
+
+## gitignore fail
+
+    git rm -r --cached .  
+    git add .
+    git commit -m "update gitignore"
+
+## Eliminar cambios locales no confirmados
+
+    git checkout .
+    git checkout -- file
+
+## Deshacer merge o modificación
+
+    git reset --hard HEAD^
+    git reset --hard <commit_id>
+    # reinicio local
+    git push --force origin <branch_name>
