@@ -69,7 +69,7 @@
     # Aplicar stash (lo elimina y lo aplica al proyecto)
     git stash pop
 
-# Branchs
+## Branchs
 
     # ver las ramas
     git branch
