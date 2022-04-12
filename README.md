@@ -85,6 +85,19 @@
     # Crear una rama remota sin estar enlazada con una rama local
     git push origin HEAD:only-emote-branch
 
+    # ELIMINAR o renombar
+    ## ramas locales
+    git branch -m <old-name> <new-name>
+    
+    git branch -d <branch_name>
+
+    ## remotas remotas
+    git push origin --delete <old-name>
+    git push origin :<old-name> <new-name>
+
+    git push remote_name --delete <branch_name>
+    git push remote_name :<branch_name>
+
 ## Branchs merge
 
     #Fusionar branchs (merge)
