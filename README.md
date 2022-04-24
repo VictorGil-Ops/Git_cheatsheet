@@ -11,6 +11,10 @@
     git config --global user.name "Victor"
     git config --global user.email victor@git.com
 
+## Use PAT(personal token access)
+
+    git clone https://username:pat@github.com/username/reponame.git
+
 ## Editor
 
     # <tool>: code, vim, notepad++ ...
