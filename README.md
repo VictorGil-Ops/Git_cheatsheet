@@ -145,3 +145,7 @@
     git reset --hard <commit_id>
     # reinicio local
     git push --force origin <branch_name>
+    
+## Elegit determinado commit
+    
+    git cherry-pick <commit>
