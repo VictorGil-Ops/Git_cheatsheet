@@ -11,6 +11,15 @@
     git config --global user.name "Victor"
     git config --global user.email victor@git.com
 
+### Configuration file
+
+    # linux like
+    /etc/gitconfig
+    ~/.gitconfig 
+    
+    # Windows
+    %USERPROFILE%/.gitconfig
+
 ## Use PAT(personal token access)
 
     git clone https://username:pat@github.com/username/reponame.git
